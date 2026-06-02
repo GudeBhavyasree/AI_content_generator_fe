@@ -4,6 +4,7 @@ import requests
 import os
 
 BACKEND_URL = os.getenv("BE_SERVER_URL")
+st.write(f"Backend URL: {BACKEND_URL}")
 
 st.set_page_config(
     page_title="AI Content Generator",
